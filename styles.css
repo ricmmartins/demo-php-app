@@ -77,7 +77,7 @@ section.instructions h2 {
     font-family: 'Lobster Two', cursive;
     font-size: 1.875em;
     padding-bottom: 3px;
-    border-bottom: 6px solid #f90;
+    border-bottom: 6px solid #f00;
     background: url(/openshift.png) left center no-repeat;
 }
 section.instructions ul {
@@ -89,7 +89,7 @@ section.instructions ul {
 section.instructions ul li {
     margin-left: 0;
     padding-left: 0;
-    color: #f90;
+    color: #f00;
     font-size: 0.875em;
     line-height: 1.5em;
 }
@@ -101,7 +101,7 @@ section.instructions a:visited {
     color: #ace;
 }
 section.instructions a:hover {
-    color: #f90;
+    color: #f00;
 }
 
 @media only screen and (max-width: 1024px) {
