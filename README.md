@@ -6,6 +6,7 @@ Simple PHP app used with OpenShift demo
 2. Go to the app folder ```cd demo-php-app```
 2. Build ``` podman build . -t demo-php-app```
 3. Run ```podman run -d -p 8080:80 --name demo demo-php-app```
+4. Check opening http://127.0.0.1:8080
 
 ## Publish to Quay.io
 1. ```podman quay login```
