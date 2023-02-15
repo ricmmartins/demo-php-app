@@ -9,7 +9,7 @@ Simple PHP app used with OpenShift demo
 4. Check opening http://127.0.0.1:8080
 
 ## Publish to Quay.io
-1. ```podman quay login```
+1. ```podman login quay.io```
 2. ```podman tag demo-php-app quay.io/rmmartins/demo-php-app ```
 3. ```podman push demo-php-app quay.io/rmmartins/demo-php-app ```
 
